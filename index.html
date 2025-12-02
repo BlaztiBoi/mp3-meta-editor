@@ -3,13 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>MP3 Metadata Editor</title>
+    <meta name="title" content="MP3 Metadata Editor" />
+    <meta
+      name="description"
+      content="Browser-based MP3 tag editor that reads/writes ID3 metadata locally.
+Made By Blazt."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mp3-meta-editor.vercel.app/" />
+    <meta property="og:title" content="MP3 Metadata Editor" />
+    <meta
+      property="og:description"
+      content="Browser-based MP3 tag editor that reads/writes ID3 metadata locally.
+Made By Blazt."
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/images/meta-tags.png"
+    />
+
+    <!-- X (Twitter) -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://mp3-meta-editor.vercel.app/"
+    />
+    <meta property="twitter:title" content="MP3 Metadata Editor" />
+    <meta
+      property="twitter:description"
+      content="Browser-based MP3 tag editor that reads/writes ID3 metadata locally.
+Made By Blazt."
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/images/meta-tags.png"
+    />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
     <title>MP3 Metadata Editor</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
       body {
-        font-family: 'Inter', sans-serif;
+        font-family: "Inter", sans-serif;
         background-color: #020617; /* slate-950 */
         color: #e2e8f0; /* slate-200 */
       }
@@ -19,7 +64,7 @@
         height: 6px;
       }
       ::-webkit-scrollbar-track {
-        background: transparent; 
+        background: transparent;
       }
       ::-webkit-scrollbar-thumb {
         background: #334155; /* slate-700 */
@@ -29,20 +74,11 @@
         background: #475569; /* slate-600 */
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-</head>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
   <body>
     <div id="root"></div>
     <script type="module" src="index.tsx"></script>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>
