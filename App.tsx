@@ -130,7 +130,7 @@ const App: React.FC = () => {
             <div className="p-2 rounded-lg bg-slate-900 border border-slate-800 group-hover:border-blue-500/50 transition-colors">
                 <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path></svg>
             </div>
-            <span className="font-bold text-xl tracking-tight text-blue-100">BlaztWhateverMp3MetaEditing</span>
+            <span className="font-bold text-xl tracking-tight text-blue-100">Blazt's Mp3 Meta Editing</span>
         </div>
         <button 
             onClick={handleReset}
